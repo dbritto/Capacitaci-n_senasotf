@@ -1,0 +1,48 @@
+*{
+   font-family:Arial, Helvetica, sans-serif;         
+}
+
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    margin: 20px;
+    width: 250px;
+    header: 180px;
+    overflow: hidden;
+    border-radius: 30px;
+    background-color: rgba(240, 240, 240, 0.8);
+    
+}
+
+.imagen-contenedor {
+    width: 170px; /* ancho */
+    height: 170px; /* alto */
+    overflow: hidden; /* para que la imagen no se desborde */    
+    margin:auto;
+    padding:20px;
+}
+
+.imagen-contenedor img {
+width: 100%; /* ancho del 100% del contenedor */
+height: 100%; /* alto del 100% del contenedor */
+object-fit: cover; /* para que la imagen se adapte al tamaño */
+}
+
+.button{
+    background-color: rgb(116, 189, 7);
+    color:white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+    font-size: small;
+    font-weight: 500;
+}
+
+button:hover{
+    background-color: green;
+}
